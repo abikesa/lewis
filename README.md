@@ -1,6 +1,6 @@
-<a href="https://book.the-turing-way.org/welcome.html"><img src="book/website/figures/logo-detail-with-text.svg?raw=true)" width="180" align="Right" /></a>
+<a href="https://book.the-turing-way.org/welcome.html"><img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcSMhSoAVTUbeWz3rNyYOi3vmV_4OtRVCmvCzPUAmK_85_n7aTDT" width="500" align="Right" /></a>
 
-# _The Turing Way_
+# _Jam & Lewis_
 
 >_This README.md file in also available in Chinese ([README-Chinese](README-translated/README-Chinese.md)), Dutch ([README-Dutch](README-translated/README-Dutch.md)), French ([README-French.md](README-translated/README-French.md)), German ([README-German.md](README-translated/README-German.md)), Indonesian ([README-Indonesian](README-translated/README-Indonesian.md)), Italian ([README-Italian](README-translated/README-Italian.md)), Korean ([README-Korean](README-translated/README-Korean.md)), Portuguese ([README-Portuguese](README-translated/README-Portuguese.md)), and Spanish ([README-Spanish](README-translated/README-Spanish.md)) (listed alphabetically)._
 

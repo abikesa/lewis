@@ -5,13 +5,7 @@
 This section has been recently added, and some chapters are still being reviewed by the project delivery team and community members. If you notice any error, please raise an issue on our GitHub repository.
 ```
 
-This is an introductory section of _The Turing Way_ as a project, a handbook, and a community.
-Here you will find chapters providing contexts and background on the book, how you can use it, how you can contribute to different aspects of the project, and how you can participate in this community.
-
-The project lead and founder, Kirstie Whitaker, discusses "Emergent Strategy" and how it has inspired her leadership and the foundation of _The Turing Way_.
-Co-lead, Malvika Sharan, also shares her reflections from working with the community and how _The Turing Way_ applies approaches that underpin the "Principles of Digital Commons."
-
-Finally, we provide details on community roles, citation process and frequently asked questions to help identify the right places for you to get involved.
+<iframe src="app/index.html" width="100%" height="600px" style="borders:none"></iframe>
 
 You will find these details in the following chapters:
 
@@ -24,13 +18,15 @@ You will find these details in the following chapters:
 - {ref}`fw-cite`
 - {ref}`fw-faqs`
 
-```{figure} ../figures/banner-welcome.jpg
+```{figure} https://www.tmc.edu/news/wp-content/uploads/sites/2/2019/08/kidney-copy.jpg
 ---
 width: 500px
 name: banner-welcome
 alt: Two people, a woman and a man, waving next to a banner that says - welcome.
 ---
-_The Turing Way_ project illustration by Scriberia. Zenodo. [http://doi.org/10.5281/zenodo.3332807](http://doi.org/10.5281/zenodo.3332807)
+*Frank, 84yo: The Oldest Living Donor as of 2019* source: [Houston Methodist](https://www.tmc.edu/news/2019/05/an-84-year-old-man-becomes-oldest-living-kidney-donor-in-the-united-states-at-houston-methodist-hospital/) 
+
+*But there's an update to this* [BMC Geriatr. 2022; 22: 826, Published online 2022 Oct 27. doi: 10.1186/s12877-022-03511-8](10.1186/s12877-022-03511-8)
 ```
 
 We hope these resources will help you navigate, understand and be part of our community.

@@ -1,4 +1,4 @@
-<a href="https://book.the-turing-way.org/welcome.html"><img src="book/website/figures/logo-detail-with-text.svg?raw=true)" width="180" align="Right" /></a>
+<a href="https://book.the-turing-way.org/welcome.html"><img src="https://www.billboard.com/wp-content/uploads/2020/10/Jimmy-Jam-and-Terry-Lewis-cr-Marselle-Washington-Marco-Imagery-billboard-1548-1603113525.jpg?w=942&h=623&crop=1" width="180" align="Right" /></a>
 
 # _The Turing Way_
 

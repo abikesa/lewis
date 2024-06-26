@@ -3,7 +3,7 @@
 
 *Jam & Lewis*
 
-<iframe src="https://www.youtube.com/watch?v=lLZruMQbuGY" width="100%" height="600px" style="borders:none"></iframe>
+<iframe src="https://www.youtube.com/embed/lLZruMQbuGY" width="100%" height="600px" style="borders:none"></iframe>
 
 
 ```{admonition} Top Tip

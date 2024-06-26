@@ -1,6 +1,6 @@
 <a href="https://book.the-turing-way.org/welcome.html"><img src="https://www.billboard.com/wp-content/uploads/2020/10/Jimmy-Jam-and-Terry-Lewis-cr-Marselle-Washington-Marco-Imagery-billboard-1548-1603113525.jpg?w=942&h=623&crop=1" width="180" align="Right" /></a>
 
-# _The Turing Way_
+# _Jam & Lewis_
 
 >_This README.md file in also available in Chinese ([README-Chinese](README-translated/README-Chinese.md)), Dutch ([README-Dutch](README-translated/README-Dutch.md)), French ([README-French.md](README-translated/README-French.md)), German ([README-German.md](README-translated/README-German.md)), Indonesian ([README-Indonesian](README-translated/README-Indonesian.md)), Italian ([README-Italian](README-translated/README-Italian.md)), Korean ([README-Korean](README-translated/README-Korean.md)), Portuguese ([README-Portuguese](README-translated/README-Portuguese.md)), and Spanish ([README-Spanish](README-translated/README-Spanish.md)) (listed alphabetically)._
 

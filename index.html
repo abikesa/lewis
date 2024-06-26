@@ -19,12 +19,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
-<link href="_static/styles/bootstrap.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
-<link href="_static/styles/pydata-sphinx-theme.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
 
   
-  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
@@ -41,9 +41,9 @@
     <link rel="stylesheet" type="text/css" href="_static/book-stylesheet.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=3ee479438cf8b5e0d341" />
-<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=3ee479438cf8b5e0d341" />
-  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=3ee479438cf8b5e0d341"></script>
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
     <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
     <script src="_static/jquery.js"></script>
@@ -73,7 +73,6 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'index';</script>
     <script src="_static/script.js"></script>
     <link rel="canonical" href="https://book.the-turing-way.org/index.html" />
-    <link rel="shortcut icon" href="_static/favicon-32x32.png"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Foreword" href="foreword/foreword.html" />
@@ -159,6 +158,8 @@
         <div class="sidebar-primary-item">
 
   
+    
+  
 
 <a class="navbar-brand logo" href="#">
   
@@ -166,21 +167,15 @@
   
   
   
-    
-    
-      
-    
-    
-    <img src="_static/logo-detail-with-text.svg" class="logo__image only-light" alt="The Turing Way - Home"/>
-    <script>document.write(`<img src="_static/logo-detail-with-text.svg" class="logo__image only-dark" alt="The Turing Way - Home"/>`);</script>
   
+    <p class="title logo__title">The Turing Way</p>
   
 </a></div>
         <div class="sidebar-primary-item">
 
  <script>
  document.write(`
-   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass"></i>
     <span class="search-button__default-text">Search</span>
     <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
@@ -961,10 +956,10 @@
 
 <script>
 document.write(`
-  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
   </button>
 `);
 </script>
@@ -972,7 +967,7 @@ document.write(`
 
 <script>
 document.write(`
-  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
@@ -1015,21 +1010,19 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="welcome">
 <span id="id1"></span><h1>Welcome<a class="headerlink" href="#welcome" title="Permalink to this heading">#</a></h1>
-<p><em>Welcome to The Turing Way handbook to reproducible, ethical and collaborative data science.</em></p>
-<p><em>The Turing Way</em> project is open source, open collaboration, and community-driven.
-We involve and support a diverse community of contributors to make data science accessible, comprehensible and effective for everyone.
-Our goal is to provide all the information that researchers, data scientists, software engineers, policymakers, and other practitioners in academia, industry, government and the public sector need to ensure that the projects they work on are easy to reproduce and reuse.</p>
+<p><em>Jam &amp; Lewis</em></p>
+<iframe src="https://www.youtube.com/watch?v=lLZruMQbuGY" width="100%" height="600px" style="borders:none"></iframe>
 <div class="tip admonition">
 <p class="admonition-title">Top Tip</p>
-<p><em>The Turing Way</em> is not meant to be read from start to finish.
-Start with a concept, tool or method that you need now, in your current work.
-Browse the different guides that make up the book, or use the search box to search for whatever you would like to learn about first.</p>
+<ul class="simple">
+<li><p>Dads, be passionate</p></li>
+<li><p>Sons, he’s your hero</p></li>
+</ul>
 </div>
-<p>All stakeholders from any level of experience or domain expertise are encouraged to use <em>The Turing Way</em> to understand their roles and responsibility of reproducibility in data science and research.
-You can inspect our resources on <a class="reference external" href="https://github.com/the-turing-way/the-turing-way">GitHub</a>, contribute to the project as described in our <a class="reference external" href="https://github.com/the-turing-way/the-turing-way/blob/main/CONTRIBUTING.md">contribution guidelines</a> and re-use all materials (<a class="reference external" href="https://github.com/the-turing-way/the-turing-way/blob/main/LICENSE.md">see the License</a>).</p>
-<p>In the <a class="reference internal" href="foreword/foreword.html#fw"><span class="std std-ref">Foreword Section</span></a> of this book, we provide meta-level information about <em>The Turing Way</em>, including guidance on how to use and navigate this project, how to cite the book and opportunities to get involved.</p>
+<iframe src="https://en.wikipedia.org/wiki/Cornbread_Harris" width="100%" height="600px" style="borders:none"></iframe>
 <figure class="align-default" id="welcome-image">
-<img alt="The Turing Way project is illustrated as a road or path with shops for different data science skills. People can go in and out with their shopping cart and pick and choose what they need." src="_images/theturingway-pathway.svg" /><figcaption>
+<img alt="The Turing Way project is illustrated as a road or path with shops for different data science skills. People can go in and out with their shopping cart and pick and choose what they need." src="_images/jam-lewis.png" />
+<figcaption>
 <p><span class="caption-number">Fig. 1 </span><span class="caption-text"><em>The Turing Way</em> project illustration by Scriberia. Zenodo. <a class="reference external" href="http://doi.org/10.5281/zenodo.3332807">http://doi.org/10.5281/zenodo.3332807</a></span><a class="headerlink" href="#welcome-image" title="Permalink to this image">#</a></p>
 </figcaption>
 </figure>
@@ -1179,8 +1172,8 @@ By The Turing Way Community
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/bootstrap.js?digest=3ee479438cf8b5e0d341"></script>
-<script src="_static/scripts/pydata-sphinx-theme.js?digest=3ee479438cf8b5e0d341"></script>
+  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
   </footer>

@@ -19,12 +19,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../_static/styles/theme.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
-<link href="../_static/styles/bootstrap.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
-<link href="../_static/styles/pydata-sphinx-theme.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+  <link href="../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
 
   
-  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+  <link href="../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
@@ -41,9 +41,9 @@
     <link rel="stylesheet" type="text/css" href="../_static/book-stylesheet.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=3ee479438cf8b5e0d341" />
-<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=3ee479438cf8b5e0d341" />
-  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=3ee479438cf8b5e0d341"></script>
+  <link rel="preload" as="script" href="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
     <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
     <script src="../_static/jquery.js"></script>
@@ -73,7 +73,6 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'reproducible-research/rdm';</script>
     <script src="../_static/script.js"></script>
     <link rel="canonical" href="https://book.the-turing-way.org/reproducible-research/rdm.html" />
-    <link rel="shortcut icon" href="../_static/favicon-32x32.png"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Research Data" href="rdm/rdm-data.html" />
@@ -158,6 +157,8 @@
         <div class="sidebar-primary-item">
 
   
+    
+  
 
 <a class="navbar-brand logo" href="../index.html">
   
@@ -165,21 +166,15 @@
   
   
   
-    
-    
-      
-    
-    
-    <img src="../_static/logo-detail-with-text.svg" class="logo__image only-light" alt="The Turing Way - Home"/>
-    <script>document.write(`<img src="../_static/logo-detail-with-text.svg" class="logo__image only-dark" alt="The Turing Way - Home"/>`);</script>
   
+    <p class="title logo__title">The Turing Way</p>
   
 </a></div>
         <div class="sidebar-primary-item">
 
  <script>
  document.write(`
-   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass"></i>
     <span class="search-button__default-text">Search</span>
     <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
@@ -960,10 +955,10 @@
 
 <script>
 document.write(`
-  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
   </button>
 `);
 </script>
@@ -971,7 +966,7 @@ document.write(`
 
 <script>
 document.write(`
-  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
@@ -1044,7 +1039,7 @@ RDM ensures efficiency in research workflows, and also greater reach and impact,
 Data should be stored in multiple locations and backed-up regularly to prevent loss or data corruption.
 Clearly describing data using documentation and metadata ensures that others know how to access, use and reuse your data, and also enable conditions for sharing and publishing data to be outlined.</p>
 <figure class="align-default" id="data-ecosystem">
-<a class="reference internal image-reference" href="../_images/data-ecosystem.svg"><img alt="image of the data ecosystem with private and public data." height="400px" src="../_images/data-ecosystem.svg" /></a>
+<a class="reference internal image-reference" href="figures/data-ecosystem.*"><img alt="image of the data ecosystem with private and public data." src="figures/data-ecosystem.*" style="height: 400px;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 44 </span><span class="caption-text">Open and closed data for reproducibility.
 <em>The Turing Way</em> project illustration by Scriberia. Original version on Zenodo. <a class="reference external" href="http://doi.org/10.5281/zenodo.3695300">http://doi.org/10.5281/zenodo.3695300</a>.</span><a class="headerlink" href="#data-ecosystem" title="Permalink to this image">#</a></p>
@@ -1054,7 +1049,7 @@ Clearly describing data using documentation and metadata ensures that others kno
 <section id="motivation-and-background">
 <span id="rr-rdm-useful"></span><h2>Motivation and Background<a class="headerlink" href="#motivation-and-background" title="Permalink to this heading">#</a></h2>
 <figure class="align-default" id="rdm-storage">
-<a class="reference internal image-reference" href="../_images/rdm-storage.jpg"><img alt="A cartoon woman standing in front of a very messy closet. She is looking for data that she generated last year. Behind her a person is watching doubtfully, unsure whether she can find it in this mess." src="../_images/rdm-storage.jpg" style="height: 400px;" /></a>
+<a class="reference internal image-reference" href="figures/rdm-storage.*"><img alt="A cartoon woman standing in front of a very messy closet. She is looking for data that she generated last year. Behind her a person is watching doubtfully, unsure whether she can find it in this mess." src="figures/rdm-storage.*" style="height: 400px;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 45 </span><span class="caption-text">Research Data Management: making it possible to retreive data from last year.
 <em>The Turing Way</em> project illustration by Scriberia. Original version on Zenodo. <a class="reference external" href="http://doi.org/10.5281/zenodo.3695300">http://doi.org/10.5281/zenodo.3695300</a>.</span><a class="headerlink" href="#rdm-storage" title="Permalink to this image">#</a></p>
@@ -1184,8 +1179,8 @@ By The Turing Way Community
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../_static/scripts/bootstrap.js?digest=3ee479438cf8b5e0d341"></script>
-<script src="../_static/scripts/pydata-sphinx-theme.js?digest=3ee479438cf8b5e0d341"></script>
+  <script src="../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
   </footer>

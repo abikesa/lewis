@@ -19,12 +19,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../../_static/styles/theme.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
-<link href="../../_static/styles/bootstrap.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
-<link href="../../_static/styles/pydata-sphinx-theme.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+  <link href="../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
 
   
-  <link href="../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+  <link href="../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
@@ -41,9 +41,9 @@
     <link rel="stylesheet" type="text/css" href="../../_static/book-stylesheet.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=3ee479438cf8b5e0d341" />
-<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=3ee479438cf8b5e0d341" />
-  <script src="../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=3ee479438cf8b5e0d341"></script>
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
@@ -73,7 +73,6 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'reproducible-research/rdm/rdm-storage';</script>
     <script src="../../_static/script.js"></script>
     <link rel="canonical" href="https://book.the-turing-way.org/reproducible-research/rdm/rdm-storage.html" />
-    <link rel="shortcut icon" href="../../_static/favicon-32x32.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Data Organisation in Spreadsheets" href="rdm-spreadsheets.html" />
@@ -158,6 +157,8 @@
         <div class="sidebar-primary-item">
 
   
+    
+  
 
 <a class="navbar-brand logo" href="../../index.html">
   
@@ -165,21 +166,15 @@
   
   
   
-    
-    
-      
-    
-    
-    <img src="../../_static/logo-detail-with-text.svg" class="logo__image only-light" alt="The Turing Way - Home"/>
-    <script>document.write(`<img src="../../_static/logo-detail-with-text.svg" class="logo__image only-dark" alt="The Turing Way - Home"/>`);</script>
   
+    <p class="title logo__title">The Turing Way</p>
   
 </a></div>
         <div class="sidebar-primary-item">
 
  <script>
  document.write(`
-   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass"></i>
     <span class="search-button__default-text">Search</span>
     <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
@@ -960,10 +955,10 @@
 
 <script>
 document.write(`
-  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
   </button>
 `);
 </script>
@@ -971,7 +966,7 @@ document.write(`
 
 <script>
 document.write(`
-  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
@@ -1026,7 +1021,7 @@ document.write(`
 <p>Data loss can be catastrophic for your research project and can happen often.
 You can prevent data loss by picking suitable storage solutions and backing your data up frequently.</p>
 <figure class="align-default" id="version-control">
-<a class="reference internal image-reference" href="../../_images/version-control.svg"><img alt="Two images are shown to represent the benefits of using version control. On the left, there is an image of two people rummaging through a blue box on top of a table. The box is full of jumbled documents and the people look confused and frustrated. The documents are named &quot;final 2&quot; and &quot;let this be the final&quot;. On the right, the same two people look happy and are searching through files organised clearly in a blue filing cabinet. There are &quot;V1, V2, V3 and V4&quot; separations organising the files." height="500px" src="../../_images/version-control.svg" /></a>
+<a class="reference internal image-reference" href="figures/version-control.*"><img alt="Two images are shown to represent the benefits of using version control. On the left, there is an image of two people rummaging through a blue box on top of a table. The box is full of jumbled documents and the people look confused and frustrated. The documents are named &quot;final 2&quot; and &quot;let this be the final&quot;. On the right, the same two people look happy and are searching through files organised clearly in a blue filing cabinet. There are &quot;V1, V2, V3 and V4&quot; separations organising the files." src="figures/version-control.*" style="height: 500px;" /></a>
 <figcaption>
 <p><span class="caption-number">Fig. 49 </span><span class="caption-text"><em>The Turing Way</em> project illustration by Scriberia. Original version on Zenodo. <a class="reference external" href="http://doi.org/10.5281/zenodo.3695300">http://doi.org/10.5281/zenodo.3695300</a></span><a class="headerlink" href="#version-control" title="Permalink to this image">#</a></p>
 </figcaption>
@@ -1052,7 +1047,7 @@ Learn more about this in the <a class="reference internal" href="rdm-sharing.htm
 We encourage you to use an existing template.
 An open source project created a quite complete one at <a class="github reference external" href="https://github.com/tonic-team/Tonic-Research-Project-Template">tonic-team/Tonic-Research-Project-Template</a></p>
 <figure class="align-default" id="folder-structure-for-research-data">
-<img alt="A protagonist has a file written &quot;readme&quot; on it and bring it to another protagonist who stays in front of a file drawer system. There are  three drawers labelled &quot;data&quot;, &quot;code&quot;, and &quot;results&quot;." src="../../_images/file-management-manual.jpg" />
+<img alt="A protagonist has a file written &quot;readme&quot; on it and bring it to another protagonist who stays in front of a file drawer system. There are  three drawers labelled &quot;data&quot;, &quot;code&quot;, and &quot;results&quot;." src="figures/file-management-manual.jpg" />
 <figcaption>
 <p><span class="caption-number">Fig. 50 </span><span class="caption-text"><em>The Turing Way</em> project illustration by Scriberia. Used under a CC-BY 4.0 licence. DOI: <a class="reference external" href="https://doi.org/10.5281/zenodo.3332807">10.5281/zenodo.3332807</a>.</span><a class="headerlink" href="#folder-structure-for-research-data" title="Permalink to this image">#</a></p>
 </figcaption>
@@ -1252,8 +1247,8 @@ By The Turing Way Community
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../../_static/scripts/bootstrap.js?digest=3ee479438cf8b5e0d341"></script>
-<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=3ee479438cf8b5e0d341"></script>
+  <script src="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
   </footer>

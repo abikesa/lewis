@@ -19,12 +19,12 @@
   </script>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="../../_static/styles/theme.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
-<link href="../../_static/styles/bootstrap.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
-<link href="../../_static/styles/pydata-sphinx-theme.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+  <link href="../../_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
+<link href="../../_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
 
   
-  <link href="../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=3ee479438cf8b5e0d341" rel="stylesheet" />
+  <link href="../../_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
   <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
 <link rel="preload" as="font" type="font/woff2" crossorigin href="../../_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
@@ -41,9 +41,9 @@
     <link rel="stylesheet" type="text/css" href="../../_static/book-stylesheet.css" />
   
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=3ee479438cf8b5e0d341" />
-<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=3ee479438cf8b5e0d341" />
-  <script src="../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=3ee479438cf8b5e0d341"></script>
+  <link rel="preload" as="script" href="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
+<link rel="preload" as="script" href="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
+  <script src="../../_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
 
     <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
     <script src="../../_static/jquery.js"></script>
@@ -73,7 +73,6 @@
     <script>DOCUMENTATION_OPTIONS.pagename = 'collaboration/github-novice/github-novice-firststeps';</script>
     <script src="../../_static/script.js"></script>
     <link rel="canonical" href="https://book.the-turing-way.org/collaboration/github-novice/github-novice-firststeps.html" />
-    <link rel="shortcut icon" href="../../_static/favicon-32x32.png"/>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Using more GitHub features" href="github-novice-features.html" />
@@ -158,6 +157,8 @@
         <div class="sidebar-primary-item">
 
   
+    
+  
 
 <a class="navbar-brand logo" href="../../index.html">
   
@@ -165,21 +166,15 @@
   
   
   
-    
-    
-      
-    
-    
-    <img src="../../_static/logo-detail-with-text.svg" class="logo__image only-light" alt="The Turing Way - Home"/>
-    <script>document.write(`<img src="../../_static/logo-detail-with-text.svg" class="logo__image only-dark" alt="The Turing Way - Home"/>`);</script>
   
+    <p class="title logo__title">The Turing Way</p>
   
 </a></div>
         <div class="sidebar-primary-item">
 
  <script>
  document.write(`
-   <button class="btn navbar-btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass"></i>
     <span class="search-button__default-text">Search</span>
     <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
@@ -960,10 +955,10 @@
 
 <script>
 document.write(`
-  <button class="btn btn-sm navbar-btn theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="theme-switch nav-link" data-mode="light"><i class="fa-solid fa-sun fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="dark"><i class="fa-solid fa-moon fa-lg"></i></span>
-    <span class="theme-switch nav-link" data-mode="auto"><i class="fa-solid fa-circle-half-stroke fa-lg"></i></span>
+  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
+    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
+    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
   </button>
 `);
 </script>
@@ -971,7 +966,7 @@ document.write(`
 
 <script>
 document.write(`
-  <button class="btn btn-sm navbar-btn search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <button class="btn btn-sm pst-navbar-icon search-button search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
     <i class="fa-solid fa-magnifying-glass fa-lg"></i>
   </button>
 `);
@@ -1040,7 +1035,7 @@ document.write(`
 It is the landing page for your repository.
 The diagram below explains what all the buttons, tabs and other things do!</p>
 <figure class="align-left" id="github-basic-diagram">
-<img alt="Annotated diagram of repository after its creation, explaining the main features. The main features are explained in the figure legend." src="../../_images/github-basic-diagram.jpg" />
+<img alt="Annotated diagram of repository after its creation, explaining the main features. The main features are explained in the figure legend." src="figures/github-basic-diagram.*" />
 <figcaption>
 <p><span class="caption-number">Fig. 108 </span><span class="caption-text">Annotated diagram of repository after its basic creation, explaining the main features. On the left side of the webpage we have the following features:</span><a class="headerlink" href="#github-basic-diagram" title="Permalink to this image">#</a></p>
 <div class="legend">
@@ -1085,7 +1080,7 @@ Whatever you write in this file will be shown on the landing (front) page of you
 <p>You can now edit the file.
 We’ll talk about how to save your changes after some pointers on writing a good README.</p>
 <figure class="align-left" id="github-readme-before-edit">
-<img alt="Annotated diagram of README.md file, if you click on the file name on your landing page. The main features are explained in the figure legend." src="../../_images/github-readme-before-edit.jpg" />
+<img alt="Annotated diagram of README.md file, if you click on the file name on your landing page. The main features are explained in the figure legend." src="figures/github-readme-before-edit.*" />
 <figcaption>
 <p><span class="caption-number">Fig. 109 </span><span class="caption-text">Annotated diagram of <a class="reference external" href="http://README.md">README.md</a> file, if you click on the file name on your landing page.</span><a class="headerlink" href="#github-readme-before-edit" title="Permalink to this image">#</a></p>
 <div class="legend">
@@ -1103,7 +1098,7 @@ We’ll talk about how to save your changes after some pointers on writing a goo
 </figcaption>
 </figure>
 <figure class="align-left" id="github-readme-after-edit">
-<img alt="Annotated diagram of README.md file in edit mode – before editing. Explained in the title." src="../../_images/github-readme-after-edit.jpg" />
+<img alt="Annotated diagram of README.md file in edit mode – before editing. Explained in the title." src="figures/github-readme-after-edit.*" />
 <figcaption>
 <p><span class="caption-number">Fig. 110 </span><span class="caption-text">Annotated diagram of <a class="reference external" href="http://README.md">README.md</a> file in edit mode – before editing.</span><a class="headerlink" href="#github-readme-after-edit" title="Permalink to this image">#</a></p>
 <div class="legend">
@@ -1136,7 +1131,7 @@ You can copy and paste other people’s raw file content into your <code class="
 <li><p>When you have finished editing, you need to scroll down to the bottom of the page and press the green commit changes button.</p></li>
 </ul>
 <figure class="align-left" id="github-edited-readme">
-<img alt="Annotated diagram of README.md file in edit mode – with a template added. Features are explained in the figure legend." src="../../_images/github-edited-readme.jpg" />
+<img alt="Annotated diagram of README.md file in edit mode – with a template added. Features are explained in the figure legend." src="figures/github-edited-readme.*" />
 <figcaption>
 <p><span class="caption-number">Fig. 111 </span><span class="caption-text">Annotated diagram of <a class="reference external" href="http://README.md">README.md</a> file in edit mode – with a template added.</span><a class="headerlink" href="#github-edited-readme" title="Permalink to this image">#</a></p>
 <div class="legend">
@@ -1297,8 +1292,8 @@ By The Turing Way Community
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="../../_static/scripts/bootstrap.js?digest=3ee479438cf8b5e0d341"></script>
-<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=3ee479438cf8b5e0d341"></script>
+  <script src="../../_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
+<script src="../../_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
 
   <footer class="bd-footer">
   </footer>
